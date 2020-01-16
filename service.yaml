@@ -1,0 +1,18 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Service
+metadata:
+  name: healtyfood
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+        - image: 'REGISTRY_URL/replace-me-namespace/healtyfood:BUILD_NUMBER'
+          ports:
+            - containerPort: 3000
+          env:
+            - name: service_watson_visual_recognition
+              valueFrom:
+                secretKeyRef:
+                  name: binding-healty-food-visualrecogniti-1579008270826
+                  key: binding

@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: HealtyFood
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 64MB
+  domain: eu-de.mybluemix.net
+  host: healty-food
+  services:
+    - healty-food-visualrecogniti-1579008270826-84720

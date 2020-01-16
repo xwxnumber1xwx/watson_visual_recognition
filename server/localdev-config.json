@@ -1,0 +1,14 @@
+{
+    "watson_visual_recognition_apikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "watson_visual_recognition": {
+        "credentials": {
+            "apikey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "url": "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+    },
+    "watson_visual_recognition_iam_apikey_description": "Auto-generated for key xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "watson_visual_recognition_iam_apikey_name": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+    "watson_visual_recognition_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+    "watson_visual_recognition_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/xxxxxxxxxxxxxxxxxxxxxxx::serviceid:ServiceId-xxxxxxxxxxxxxxxxxxxxx",
+    "watson_visual_recognition_url": "https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}
