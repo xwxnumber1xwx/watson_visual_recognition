@@ -19,9 +19,15 @@ These instructions are for running locally with Node.js. You can also [run local
     ```
 
 1. Start the app:
+    - only Node.js server
 
     ```sh
     npm start
+    ```
+    - React.js and Node server
+
+    ```sh
+    npm run dev_react
     ```
 
 1. Point your browser to [http://localhost:3000](http://localhost:3000).
