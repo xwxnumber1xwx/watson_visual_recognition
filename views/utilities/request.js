@@ -21,10 +21,13 @@ const handleErrors = (response) => {
  * @param  {Object} params The parameters
  * @return {Promise}       The request promise
  */
-export const classifyImage = params =>
-  fetch('/api/classify', {
+export const classifyImage = params => {
+  let url;
+  process.env.NODE_ENV === 'development' ? url = 'http://localhost:3100/api/classify' : url = '/api/classify'
+  return fetch(url, {
     method: 'POST',
     body: formData(params),
   })
-  .then(parseJSON)
-  .then(handleErrors);
+    .then(parseJSON)
+    .then(handleErrors);
+}
